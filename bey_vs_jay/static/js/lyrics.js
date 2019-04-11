@@ -1,20 +1,21 @@
 var url = '/songs';
 d3.json(url).then(function(data) {
-    var releaseDate = data.years;
-    var uniqueWords = data.percent_unique;
-    var wordCount = data.word_count;
-    var song = data.song;
-    var song_url = data.song_url
+    // var releaseDate = data.years;
+    // var uniqueWords = data.percent_unique;
+    // var wordCount = data.word_count;
+    // var song = data.song;
+    // var song_url = data.song_url
 
     var bubbleTrace = {
-        x: releaseDate,
-        y: uniqueWords,
-        text: song,
+        x: data.years,
+        y: data.percent_unique,
+        name: 'Single Jay-Z',
+        text: data.song,
         mode: 'markers',
         marker: {
-            opacity: .75,
-            size: wordCount,
-            sizeref: .5,
+            opacity: .5,
+            size: data.wordCount,
+            sizeref: .25,
             sizemode: 'area',
             colorscale: 'blue'
         }
