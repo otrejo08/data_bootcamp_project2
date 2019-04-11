@@ -29,5 +29,5 @@ d3.json(url).then(function(data) {
         }
     };
 
-    Plotly.Plot('bubble', bubbleData, bubbleLayout, {response: true});
+    Plotly.plot('bubble', bubbleData, bubbleLayout, {response: true});
 });
