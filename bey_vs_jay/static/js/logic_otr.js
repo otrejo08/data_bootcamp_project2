@@ -173,7 +173,7 @@ var cityMarkers = [];
 // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
 for (var i = 0; i < cities.length; i++) {
   cityMarkers.push(
-  L.marker(cities[i].location, {icon: otrlogo})
+  L.marker(cities[i].location)
     .bindPopup("<h1>" + cities[i].name + "</h1> <hr> <h3>Date: " + cities[i].date +"</h3> <h3>Attendance: " + cities[i].attendance +"</h3> <h3>Sales: " + cities[i].sales +"</h3> <h3>" + cities[i].Twitter + "</h3> <h3>" + cities[i].website + "</h3>")
     );
   }
@@ -336,7 +336,7 @@ for (var i = 0; i < cities.length; i++) {
     // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
     for (var i = 0; i < citiesj.length; i++) {
       cityMarkersj.push(
-      L.marker(citiesj[i].location, {icon: jayzlogo})
+      L.marker(citiesj[i].location)
         .bindPopup("<h1>" + citiesj[i].name + "</h1> <hr> <h3>Date: " + citiesj[i].date +"</h3> <h3>Attendance: " + citiesj[i].attendance +"</h3> <h3>Sales: " + citiesj[i].sales +"</h3> <h3>" + citiesj[i].Twitter + "</h3> <h3>" + citiesj[i].website + "</h3>")
         );
       }
@@ -615,7 +615,7 @@ var citiesf = [
 ];
 
 var formation = L.icon({
-  iconUrl: 'beyonce.png',
+  iconUrl: '../png/beyonce.png',
   iconSize: [50, 45], // size of the icon
   popupAnchor: [0,-15]
   });
