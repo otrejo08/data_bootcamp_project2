@@ -6,7 +6,7 @@ d3.json(url).then(function(data) {
     var song = data.song;
     var song_url = data.song_url
 
-    var BubbleTrace = {
+    var bubbleTrace = {
         x: releaseDate,
         y: uniqueWords,
         text: song,
