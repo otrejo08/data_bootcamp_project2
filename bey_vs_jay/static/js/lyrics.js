@@ -1,6 +1,6 @@
 var url = '/songs';
 d3.json(url).then(function(data) {
-    var releaseDate = data.release_date;
+    var releaseDate = (data.release_date-20021010)/365;
     var uniqueWords = data.percent_unique;
     var wordCount = data.word_count;
     var song = data.song;
@@ -12,7 +12,7 @@ d3.json(url).then(function(data) {
         text: song,
         mode: 'markers',
         marker: {
-            size: wordCount/100,
+            size: wordCount/10,
             colorscale: 'blue'
         }
     };
