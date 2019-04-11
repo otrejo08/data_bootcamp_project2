@@ -631,7 +631,7 @@ var formation = L.icon({
     // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
     for (var i = 0; i < citiesf.length; i++) {
       cityMarkersf.push(
-      L.marker(citiesf[i].location, {icon: formation})
+      L.marker(citiesf[i].location)
         .bindPopup("<h1>" + citiesf[i].name + "</h1> <hr> <h3>Date: " + citiesf[i].date +"</h3> <h3>Attendance: " + citiesf[i].attendance +"</h3> <h3>Sales: " + citiesf[i].sales +"</h3> <h3>" + citiesf[i].Twitter + "</h3> <h3>" + citiesf[i].website + "</h3>")
         );
       }
