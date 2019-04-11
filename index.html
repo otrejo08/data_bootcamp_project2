@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bey vs Jay</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+  <!-- Our CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+
+<body>
+    
+    <div class="row">
+      
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Beyhive vs RocNation</h1>
+        <p>Who will prevail?</p>
+      </div>
+
+    </div>
+    
+    <div class="row">
+      
+      <div class="col-md-2">
+        <div class="well">
+        <h5>Chart Performance</h5>
+        </div>
+      <div>
+        
+      
+      <!-- The div where we will inject our tour map -->  
+      </div>  
+        <div id="map"></div>
+      </div>
+    
+    <div>
+    
+        <!-- The div where we will inject our lyric bubble plot -->
+    <div class="row">
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Album Sales</h5>
+
+          <div id="4f47b437-228b-47f9-8ade-182be188ff3f" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+          <script type="text/javascript">
+              (function(){
+                  window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+  
+                  var gd = document.getElementById('4f47b437-228b-47f9-8ade-182be188ff3f')
+                  var resizeDebounce = null;
+  
+                  function resizePlot() {
+                      var bb = gd.getBoundingClientRect();
+                      Plotly.relayout(gd, {
+                          width: bb.width,
+                          height: bb.height
+                      });
+                  }
+  
+                  
+                  window.addEventListener('resize', function() {
+                      if (resizeDebounce) {
+                          window.clearTimeout(resizeDebounce);
+                      }
+                      resizeDebounce = window.setTimeout(resizePlot, 100);
+                  });
+                  
+  
+                  
+                  Plotly.plot(gd,  {
+                      data: figure.data,
+                      layout: figure.layout,
+                      frames: figure.frames,
+                      config: {"showLink": true, "linkText": "Export to plot.ly", "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+                  });
+                  
+             }());
+  
+  
+          </script>
+
+
+
+
+        </div>
+      <div>
+      
+      <!-- The div where we will inject our chart bar plot -->
+      <div class="row"></div>
+        <div class="col-md-2">
+          <div id="well"></div>
+            <h5>Lyrical Analysis</h5>
+        </div>
+      </div>
+    <div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <div id="sales"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="plotlyjs-bundle.js"></script>
+  <script type="text/javascript" src="/hafigure.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+
+</body>
+
+</html>
