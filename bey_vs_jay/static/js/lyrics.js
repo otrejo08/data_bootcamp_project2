@@ -15,7 +15,7 @@ d3.json(url).then(function(data) {
         marker: {
             opacity: .5,
             size: data.wordCount,
-            sizeref: .5,
+            sizeref: .75,
             sizemode: 'area',
             colorscale: 'blue'
         }
