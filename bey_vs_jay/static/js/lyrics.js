@@ -6,21 +6,67 @@ d3.json(url).then(function(data) {
     // var song = data.song;
     // var song_url = data.song_url
 
-    var bubbleTrace = {
-        x: data.years,
-        y: data.percent_unique,
+    var sjTrace = {
+        x: data.sj_years,
+        y: data.sj_percent_unique,
         name: 'Single Jay-Z',
-        text: data.song,
+        text: data.sj_song,
         mode: 'markers',
         marker: {
             opacity: .5,
-            size: data.wordCount,
-            sizeref: 1,
+            size: data.sj_word_count,
+            sizeref: .5,
             sizemode: 'area',
             colorscale: 'blue'
         }
     };
-    var bubbleData = [bubbleTrace];
+
+    var mjTrace = {
+        x: data.mj_years,
+        y: data.mj_percent_unique,
+        name: 'Relationship Jay-Z',
+        text: data.mj_song,
+        mode: 'markers',
+        marker: {
+            opacity: .5,
+            size: data.mj_word_count,
+            sizeref: .5,
+            sizemode: 'area',
+            colorscale: 'blue-teal'
+        }
+    };
+
+    var sbTrace = {
+        x: data.sb_years,
+        y: data.sb_percent_unique,
+        name: 'Single Beyonce',
+        text: data.sb_song,
+        mode: 'markers',
+        marker: {
+            opacity: .5,
+            size: data.sb_word_count,
+            sizeref: .5,
+            sizemode: 'area',
+            colorscale: 'raspberry yogurt pink'
+        }
+    };
+
+    var mbTrace = {
+        x: data.mb_years,
+        y: data.mb_percent_unique,
+        name: 'Relationship Beyonce',
+        text: data.mb_song,
+        mode: 'markers',
+        marker: {
+            opacity: .5,
+            size: data.mb_word_count,
+            sizeref: .5,
+            sizemode: 'area',
+            colorscale: 'muted purple'
+        }
+    };
+
+    var bubbleData = [sjTrace, mjTrace, sbTrace, mbTrace];
     var bubbleLayout = {
         xaxis: {
             title: {
