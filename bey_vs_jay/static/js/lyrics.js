@@ -38,6 +38,7 @@ d3.json(url).then(function(data) {
                 font: {
                     size: 15
                 }
+            }
         }
     };
 
