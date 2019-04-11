@@ -31,7 +31,8 @@ d3.json(url).then(function(data) {
             }
         },
         yaxis: {
-            tick0: 0
+            tick0: 0,
+            tickformat: ',.0%'
         }
     };
 
