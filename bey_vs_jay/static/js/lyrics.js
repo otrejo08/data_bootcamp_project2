@@ -13,6 +13,8 @@ d3.json(url).then(function(data) {
         mode: 'markers',
         marker: {
             size: wordCount,
+            sizeref: 2. * max(wordCount) / (100 ** 2),
+            sizemode = 'area',
             colorscale: 'blue'
         }
     };
