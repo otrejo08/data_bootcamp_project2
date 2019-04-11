@@ -15,6 +15,9 @@
     integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
     crossorigin=""></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <!-- Our CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
@@ -79,11 +82,11 @@
     <br>
 
     <!-- div where we will inject our map -->      
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-md-12" id = "map"></div>
       </div>
-    </div>
+    </div> -->
 
     <br>
     <br>
@@ -97,15 +100,13 @@
 
 
     <!-- api key and leaflet js-->
-    <script src="{{ url_for('static', filename='js/config.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lyrics.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/config.js') }}"></script>
     <script src="{{ url_for('static', filename='js/logic_otr.js') }}"></script>
     <script src="{{ url_for('static', filename='images/otr2.png') }}"></script>
     <script src="{{ url_for('static', filename='images/beyonce.png') }}"></script>
     <script src="{{ url_for('static', filename='images/jaybey.png') }}"></script>
     <script src="{{ url_for('static', filename='images/jay.1.png') }}"></script>
-    <script src="{{ url_for('static', filename='images/jayz.png') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="{{ url_for('static', filename='js/lyrics.js') }}"></script>
+    <script src="{{ url_for('static', filename='images/jayz.png') }}"></script> -->
   </body>
 </html>
