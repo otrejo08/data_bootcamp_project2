@@ -26,6 +26,9 @@ d3.json(url).then(function(data) {
                     size: 20
                 }
             }
+        },
+        yaxis: {
+            tick0: 0
         }
     };
 
