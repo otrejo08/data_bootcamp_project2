@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bey vs Jay</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Beyhive vs RocNation</h1>
+        <h2>Who wins?</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3>"What's higher than number one?"</h3>
+      <div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>"What's better than one billionaire? Two"</h3>
+        <div>
+    </div>
+
+    <!-- The div where we will inject our map --> 
+    <div class="row">
+        <div class="col-md-6">
+          <a href="https://plot.ly/~omar_trejo08/11/?share_key=NDiHHNh67eRmMRzqxfEUbh" target="_blank" title="Plot 11" style="display: block; text-align: center;"><img src="https://plot.ly/~omar_trejo08/11.png?share_key=NDiHHNh67eRmMRzqxfEUbh" alt="Plot 11" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+          <script data-plotly="omar_trejo08:11" sharekey-plotly="NDiHHNh67eRmMRzqxfEUbh" src="https://plot.ly/embed.js" async></script>
+        </div>
+        <div class="col-md-6">
+          <a href="https://plot.ly/~omar_trejo08/13/?share_key=o6KiTBly80D33Vud5UINEg" target="_blank" title="Plot 13" style="display: block; text-align: center;"><img src="https://plot.ly/~omar_trejo08/13.png?share_key=o6KiTBly80D33Vud5UINEg" alt="Plot 13" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+          <script data-plotly="omar_trejo08:13" sharekey-plotly="o6KiTBly80D33Vud5UINEg" src="https://plot.ly/embed.js" async></script>
+        </div>
+    </div>
+
+    <br>  
+    <br>
+
+    <!-- The div where we will inject our map -->      
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id = "map"></div>
+      </div>
+    </div>
+
+
+
+    <!-- API key -->
+    <script type="text/javascript" src="config.js"></script>
+    <!-- Our JS -->
+    <script type="text/javascript" src="logic otr.js"></script>
+  </body>
+</html>
