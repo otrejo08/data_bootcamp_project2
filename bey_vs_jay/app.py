@@ -16,7 +16,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/lyrics")
+@app.route("/songs")
 def lyric_analysis():
     # pre_jay_path = 'pre_jay.csv'
     # pre_jay_csv = pd.read_csv(pre_jay_path)

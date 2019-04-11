@@ -1,10 +1,10 @@
-var url = '/lyrics';
-d3.json(url).then(function(lyricData) {
-    var releaseDate = lyricData.release_data;
-    var uniqueWords = lyricData.percent_unique;
-    var wordCount = lyricData.word_count;
-    var song = lyricData.song;
-    var song_url = lyricData.song_url
+var url = '/songs';
+d3.json(url).then(function(data) {
+    // var releaseDate = data.release_data;
+    // var uniqueWords = data.percent_unique;
+    // var wordCount = data.word_count;
+    // var song = data.song;
+    // var song_url = lyricData.song_url
 
     var BubbleTrace = {
         x: releaseDate,
