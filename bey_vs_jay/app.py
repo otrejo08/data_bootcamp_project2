@@ -34,6 +34,8 @@ def lyric_analysis(lyrics):
         search_url = f'{base_url}/artists/{artist_id}/songs?per_page=40&page={page_number}&sort=popularity'
         response = requests.get(search_url, headers=headers)
 
+        return response
+
     jay_dict = {}
     beyonce_dict = {}
     destiny_dict = {}
@@ -196,33 +198,6 @@ def lyric_analysis(lyrics):
                'song_url': pre_jay_df.song_url.values.tolist()}
     
     return jsonify(pre_jay_data)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    return response
-
-
-
-
-
-
-
-
-
-
-
-
-    return jsonify
-
-
 
 if __name__ == '__main__':
     app.run()
