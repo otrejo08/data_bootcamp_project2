@@ -12,7 +12,7 @@ d3.json(url).then(function(data) {
         text: song,
         mode: 'markers',
         marker: {
-            size: wordCount,
+            size: wordCount / 10,
             colorscale: 'blue'
         }
     };
