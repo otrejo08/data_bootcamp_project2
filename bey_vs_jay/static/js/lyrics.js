@@ -4,7 +4,7 @@ d3.json(url).then(function(data) {
     var uniqueWords = data.percent_unique;
     var wordCount = data.word_count;
     var song = data.song;
-    var song_url = lyricData.song_url
+    var song_url = data.song_url
 
     var BubbleTrace = {
         x: releaseDate,
