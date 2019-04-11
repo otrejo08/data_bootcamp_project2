@@ -12,8 +12,9 @@ d3.json(url).then(function(data) {
         text: song,
         mode: 'markers',
         marker: {
+            opacity: .75,
             size: wordCount,
-            sizeref: 2. * max(wordCount) / (100 ** 2),
+            sizeref: 2 * max(wordCount) / (100 ** 2),
             sizemode = 'area',
             colorscale: 'blue'
         }
