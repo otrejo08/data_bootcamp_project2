@@ -71,7 +71,7 @@ var cities = [
   website: "<a href='https://www.instagram.com/p/qUUHJ5Bx-Q/' target='_blank'>WATCH THE SHOW!</a>"
 },
 {
-  location: [43.638164114, -79.386831786],
+  location: [40.808163434, -74.071333048],
   name: "MetLife Stadium",
   date: "July 11th & 12th 2014",
   attendance: "89,165",
@@ -180,148 +180,148 @@ for (var i = 0; i < cities.length; i++) {
 
   var citiesj = [
     {
-      location: [25.9548, -80.2366],
-      name: "Sun Life Stadium",
-      date: "June 25th 2014",
-      attendance: "49,980",
-      sales: "$5,450,026",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-06-25%20until%3A2014-06-26&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/63jXKgBiHv/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [33.804663448, -117.872663176],
+      name: "Honda Center (Anaheim, CA)",
+      date: "October 27th 2017",
+      attendance: "12,153",
+      sales: "$1,228,306",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-10-27%20until%3A2017-10-28&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BdBOivZFS1h/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [39.091832966, -84.503997984],
-      name: "Great American Ball Park",
-      date: "June 28th 2014",
-      attendance: "37,863",
-      sales: "$4,250,931",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-06-28%20until%3A2014-06-29&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/p4ZMsZhJlJ/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [32.787663516, -96.806163442],
+      name: "American Airlines Center (Dallas, TX)",
+      date: "November 7th 2017",
+      attendance: "14,497",
+      sales: " $1,330,471",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-07%20until%3A2017-11-08&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BbOV4UPnNOG/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [42.087832982, -71.258665632],
-      name: "Gillette Stadium",
-      date: "July 1st 2014",
-      attendance: "52,802",
-      sales: "$5,738,114",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-01%20until%3A2014-07-02&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      location: [29.942662896, -90.07583303],
+      name: "Smoothie King Center (New Orleans, LA)",
+      date: "November 9th 2017",
+      attendance: "12,731",
+      sales: " $1,072,797",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-07%20until%3A2017-11-08&src=typd&lang=en' target='_blank'>Fan Feed</a>",
       website: "<a href='https://www.instagram.com/p/p8ujq8zZqL/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [39.903496386, -75.159832694],
-      name: "Citizens Bank Park",
-      date: "July 5th 2014",
-      attendance: "40,634",
-      sales: "$5,141,381",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-05%20until%3A2014-07-06&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/qHWZe4y3Mu/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [25.775496898, -80.186165922],
+      name: "American Airlines Arena (Miami, FL)",
+      date: "November 12th 2017",
+      attendance: "15,735",
+      sales: " $1,770,249",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-12%20until%3A2017-11-13&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BbVkRMXnTD2/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [39.273498906, -76.620330852],
-      name: "M&T Bank Stadium",
-      date: "July 7th 2014",
-      attendance: "51,212",
-      sales: "$5,016,036",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-07%20until%3A2014-06-08&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/qO27HwLDES/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [33.754330316, -84.391165102],
+      name: "Philips Arena (Atlannta, GA)",
+      date: "November 14th 2017",
+      attendance: "14,118",
+      sales: " $1,832,255",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-14%20until%3A2017-11-15&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BbiqO_ZFAYv/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [43.638164114, -79.386831786],
-      name: "Rogers Centre",
-      date: "July 9th 2014",
-      attendance: "48,029",
-      sales: "$4,943,390",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-09%20until%3A2014-07-10&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/qUUHJ5Bx-Q/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [36.155499378, -86.773830238],
+      name: "Bridgestone Arena (Nashville, TN)",
+      date: "November 15th 2017",
+      attendance: "14,128",
+      sales: "$1,064,008",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-14%20until%3A2017-11-15&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BbTjYJxDbGt/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [43.638164114, -79.386831786],
-      name: "MetLife Stadium",
-      date: "July 11th & 12th 2014",
-      attendance: "89,165",
-      sales: "$11,544,187",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-11%20until%3A2014-07-13&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/qWo5qERU6O/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [35.2251426, -80.8392351],
+      name: "Spectrum Center (Charlotte, NC)",
+      date: "November 16th 2017",
+      attendance: "15,558",
+      sales: "$1,563,821",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-16%20until%3A2017-11-17&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/Bb_KSGCFnyQ/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [33.754496982, -84.400498398],
-      name: "Georgia Dome",
-      date: "July 15th 2014",
-      attendance: "48,938",
-      sales: "$5,210,602",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-15%20until%3A2014-07-16&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/qkBkG9A9vf/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [43.639330776, -79.37416517],
+      name: "Air Canada Centre (Toronto, Canada)",
+      date: "November 22nd 2017",
+      attendance: "25,270",
+      sales: " $2,301,650",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-27%20until%3A2017-11-28&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BdY2d2uDtDM/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [29.75416365, -95.35333192],
-      name: "Minute Maid Park",
-      date: "July 18th 2014",
-      attendance: "40,103",
-      sales: "$5,235,438",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-18%20until%3A2014-07-19&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/qpUXeIDARX/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [38.8981251, -77.0208804],
+      name: "Capital One Arena (Washington, DC)",
+      date: "November 29th 2017",
+      attendance: "18,147",
+      sales: "$2,199,885",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-11-29%20until%3A2017-11-30&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/Bb_VMbwhafj/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
       location: [29.950496198, -90.075333032],
-      name: "Mercedes-Benz Superdome",
-      date: "July 20th 2014",
-      attendance: "42,374",
-      sales: "$4,943,390",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-20%20until%3A2014-07-21&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/q0euTDoZJs/' target='_blank'>WATCH THE SHOW!</a>"
+      name: "Nassau Coliseum (East Garden, NY)",
+      date: "December 2nd 2016",
+      attendance: "13,292",
+      sales: " $1,315,634.00",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-02%20until%3A2017-12-03&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BcOWtsmlMjy/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [32.741997032, -97.088999644],
-      name: "AT&T Stadium",
-      date: "July 22nd 2014",
-      attendance: "41,463",
+      location: [43.638164114, -79.386831786],
+      name: "Rogers Arena (Vancover, CA) ",
+      date: "December 11th 2017",
+      attendance: "14,386",
       sales: "$5,050,479",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-22%20until%3A2014-07-23&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-11%20until%3A2017-12-12&src=typd&lang=en' target='_blank'>Fan Feed</a>",
       website: "<a href='https://www.instagram.com/p/shr-7pqEBj/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [41.85749657, -87.6166642],
-      name: "Soldier Field",
-      date: "July 24th 2014",
-      attendance: "42,374",
-      sales: "$4,943,390",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-24%20until%3A2014-07-25src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/shr-7pqEBj/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [47.61999752, -122.35249859],
+      name: "Key Arena (Seattle, WA)",
+      date: "December 13th 2017",
+      attendance: "9,200",
+      sales: "$862,000",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-13%20until%3A2017-12-14&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BcrT7iKF8V8/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
       location: [49.804663448, -97.13916611],
-      name: "Investors Group Field",
-      date: "July 27th 2014",
-      attendance: "29,542",
-      sales: "$3,187,580",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-27%20until%3A2014-07-28&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/rATElkJshQ/' target='_blank'>WATCH THE SHOW!</a>"
+      name: "Moda Center (Portland, OR)",
+      date: "December 14th 2017",
+      attendance: "10,840",
+      sales: "$803,170",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-14%20until%3A2017-12-15&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BcBvO3dg2Kq/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
       location: [47.588164314, -122.326165362],
-      name: "Safeco Field",
-      date: "July 30th 2014",
-      attendance: "40,615",
-      sales: "$4,339,642",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-07-30%20until%3A2014-07-31&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/BokZsIKl65k/' target='_blank'>WATCH THE SHOW!</a>"
+      name: "Oracle Arena (Oakland, CA)",
+      date: "December 16th 2017",
+      attendance: "14,853",
+      sales: "$1,511,245",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-16%20until%3A2017-12-17&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BczJwW0F4Gg/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [34.156832706, -118.167165998],
-      name: "Rose Bowl",
-      date: "August 2nd & 3rd 2014",
-      attendance: "96,994",
-      sales: "$10,993,245",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-08-02%20until%3A2014-08-03&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/rRGfG-pp_j/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [38.5806415, -121.4996191],
+      name: "Golden 1 Center (Sacramento, CA)",
+      date: "December 17th 2017",
+      attendance: "11,459",
+      sales: "$954,552",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-17%20until%3A2017-12-18&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BbtH0_LjYJY/' target='_blank'>WATCH THE SHOW!</a>"
     },
     {
-      location: [37.773663572, -122.386998452],
-      name: "AT&T Park",
-      date: "August 5th 2014",
-      attendance: "73,020",
-      sales: "$8,887,539",
-      Twitter: "<a href='https://twitter.com/search?l=&q=%23beyonce%20OR%20%23otr%20OR%20%23ontheruntour%20OR%20%23ontherun%20OR%20%23jayz%20OR%20%23beehive%20OR%20%23beyhive%20since%3A2014-08-05%20until%3A2014-08-06&src=typd&lang=en' target='_blank'>Fan Feed</a>",
-      website: "<a href='https://www.instagram.com/p/riZkz-mFeH/' target='_blank'>WATCH THE SHOW!</a>"
+      location: [33.954829514, -118.338498646],
+      name: "The Forum (Inglewood, CA)",
+      date: "December 21st 2014",
+      attendance: "16,084",
+      sales: "$2,012,730",
+      Twitter: "<a href='https://twitter.com/search?q=%23jayz%20%20OR%20%23444tour%20OR%20%23rocnation%20since%3A2017-12-21%20until%3A2017-12-22&src=typd&lang=en' target='_blank'>Fan Feed</a>",
+      website: "<a href='https://www.instagram.com/p/BazLfVZlOKl/' target='_blank'>WATCH THE SHOW!</a>"
     },
     ];
     
@@ -334,10 +334,10 @@ for (var i = 0; i < cities.length; i++) {
     var cityMarkersj = [];
     
     // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
-    for (var i = 0; i < cities.length; i++) {
+    for (var i = 0; i < citiesj.length; i++) {
       cityMarkersj.push(
-      L.marker(cities[i].location, {icon: jayzlogo})
-        .bindPopup("<h1>" + cities[i].name + "</h1> <hr> <h3>Date: " + cities[i].date +"</h3> <h3>Attendance: " + cities[i].attendance +"</h3> <h3>Sales: " + cities[i].sales +"</h3> <h3>" + cities[i].Twitter + "</h3> <h3>" + cities[i].website + "</h3>")
+      L.marker(citiesj[i].location, {icon: jayzlogo})
+        .bindPopup("<h1>" + citiesj[i].name + "</h1> <hr> <h3>Date: " + citiesj[i].date +"</h3> <h3>Attendance: " + citiesj[i].attendance +"</h3> <h3>Sales: " + citiesj[i].sales +"</h3> <h3>" + citiesj[i].Twitter + "</h3> <h3>" + citiesj[i].website + "</h3>")
         );
       }
 
