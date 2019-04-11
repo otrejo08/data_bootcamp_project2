@@ -15,7 +15,7 @@ d3.json(url).then(function(data) {
         marker: {
             opacity: .5,
             size: data.wordCount,
-            sizeref: .25,
+            sizeref: .5,
             sizemode: 'area',
             colorscale: 'blue'
         }
@@ -23,17 +23,21 @@ d3.json(url).then(function(data) {
     var bubbleData = [bubbleTrace];
     var bubbleLayout = {
         xaxis: {
-            showlegend: false,
             title: {
                 text: 'years',
                 font: {
-                    size: 20
+                    size: 15
                 }
             }
         },
         yaxis: {
             tick0: 0,
-            tickformat: ',.0%'
+            tickformat: ',.0%',
+            title: {
+                text: 'unique usage rate',
+                font: {
+                    size: 15
+                }
         }
     };
 
