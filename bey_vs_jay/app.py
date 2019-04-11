@@ -1,13 +1,21 @@
+import os
+
 import pandas as pd
 import numpy as np
+
 import requests
 from pprint import pprint
+
 from bs4 import BeautifulSoup
+
 import datetime as dt
 
 import re, string
+
 import nltk
+
 import contractions
+
 from nltk.corpus import stopwords
 
 # from api_keys import api_key
@@ -23,8 +31,8 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/lyrics/<lyrics>")
-def lyric_analysis(lyrics):
+@app.route("/lyrics")
+def lyric_analysis():
     
     api_key = 'SywGQVPd8KXvMLMPDKJzoFjyVZnyBAqR0lUFv-oC3vJk2G6XLVnYY26OamLBQWVY'
     
