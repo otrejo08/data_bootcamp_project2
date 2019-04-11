@@ -23,10 +23,10 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/lyrics/<lyrics>")
-def lyric_analysis(lyrics):
-    print(lyrics)
-    return jsonify
+# @app.route("/lyrics/<lyrics>")
+# def lyric_analysis(lyrics):
+#     print(lyrics)
+#     return jsonify
 
 
 
